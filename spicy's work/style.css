@@ -1335,21 +1335,27 @@ button[title~="otherservice-btn"]{
 
 }
 
+.insight img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
 .insight1{
     margin-top: 15vh;
-    padding: 10px;
+    padding: 20px;
 
     width: 28.5%;
     height: auto;
     /* border: 2px solid black; */
 }
 
-.insight11{
+.insight11, .insight12, .insight13{
     width: 100%;
     margin-bottom: 7vh;
     /* border: 2px solid black; */
     border-radius: 5px;
-    box-shadow: 5px 5px 5px 5px rgb(211, 210, 210);  
+    box-shadow: 16px 16px 16px 16px rgba(245, 245, 245, 0.884);  
 }
 
 .entry-summarySecond{
@@ -1414,8 +1420,6 @@ button[title~="otherservice-btn"]{
     width: 100%;
     /* border: 2px solid rgb(187, 46, 46); */
     /* height: 70vh; */
-
-
 }
 
 .slide>.testimonyleft{
@@ -1466,6 +1470,73 @@ button[title~="otherservice-btn"]{
 }
 
 /* insight ends */
+
+/* contact start */
+.contact{
+    width: 100vw;
+   
+}
+
+.cancontact{
+    width: 100vw;
+    display: flex;
+    /* background-image: url("./imaggge/firstw71.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0vw 1vw 0vw 8vw;
+}
+
+.contact1 h3{
+    text-align: left;
+}
+
+.contact1>span,h3{
+    margin: 5px 30px 15px 30px ;
+    display: block;
+}
+
+.contactinfo{
+    margin: 30px;
+}
+
+.contactinfo span{
+    display: block;
+    margin-left: 20px;
+}
+
+.contact1{
+    line-height: 25px;
+}
+
+.contact1,.contact2{
+    padding: 15vh 0vw 0vh 0vw;
+    width: 43vw ;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.contact2>img{
+    margin: -10vh 0 0 0;
+    width: 40vw;
+    height: max-content;
+    
+}
+
+.contactform{
+    width: 80vw;
+    margin: -1vh 10vw 1vh 10vw;
+    padding-bottom: 8vh ;   
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    padding: 30px 50px 0px 50px;
+    box-shadow: 16px 16px 16px 16px rgba(245, 245, 245, 0.884);  
+}
+
+.contactcontainer{
+    /* display: block; */
+    margin-bottom: 20px;
+}
+
+/* contact ends here */
 
 @media screen and (max-width: 320px) {
     
